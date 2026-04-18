@@ -21,7 +21,7 @@ This repository contains the results of a controlled experiment comparing the pe
 3. **Hardware Health**: Limiting power is a "free" way to reduce transient spikes and ensure VRAM longevity without sacrificing speed.
 
 ## Reproducing the Results
-The orchestration script `power_experiment.py` and the `stress_test.py` used for this benchmark are included in this repository.
+The orchestration script `power_experiment.py` and the `stress_test.py` used for this benchmark are available in this repository.
 
 ### Requirements
 - Linux Server with NVIDIA GPU
@@ -29,6 +29,8 @@ The orchestration script `power_experiment.py` and the `stress_test.py` used for
 - `nvidia-smi` access
 
 ### Running
+1. Open `power_experiment.py` and update the `SERVER_IP` and `SUDO_PASS` placeholders.
+2. Run the experiment:
 ```bash
 python power_experiment.py
 ```
