@@ -1,3 +1,5 @@
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frahulsoni0361%2Fvllm-power-efficiency-results&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
+
 # RTX 3090 Power Efficiency Experiment: vLLM & Qwen2.5-VL
 
 This repository contains the results of a controlled experiment comparing the performance and thermal efficiency of an NVIDIA RTX 3090 when running local AI inference (vLLM) at different power limits.
